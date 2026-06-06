@@ -136,7 +136,7 @@ double NeuralNetwork::contribute(int nodeId, const double& y, const double& p) {
     visitContributeStart(nodeId); // don't remove this line, used for visualization
     // incomingContribution: the error signal returned by a recursive call on a neighbor.
     if (contributions.count(nodeId) > 0) {
-        return contributions.at(needId);
+        return contributions.at(nodeId);
     }
     double incomingContribution = 0;
     // outgoingContribution: built up from this node's neighbors, then scaled by
