@@ -1,4 +1,3 @@
-E492: 不是编辑器的命令: ggdG                                                                                                    1,1          顶端
 // includes
 #include "NeuralNetwork.hpp"
 #include "Trace.hpp"
